@@ -1,13 +1,17 @@
 header {
     background-color: blue;
     color: white;
-    padding: 20px;
+    padding: 1em;
+    padding-top: 0.5em;
     grid-area: header;
+    font-family: "Comfortaa", sans-serif;
 }
 
 nav {
     background-color: yellow;
+    padding: 1em;
     grid-area: nav;
+
 }
 
 main {
