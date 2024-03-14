@@ -6,9 +6,9 @@ header {
     color: white;
     padding: 1em;
     padding-top: 0.5em;
+    padding-left: 2em;
     grid-area: header;
     font-family: "Urbanist", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
 }
@@ -17,6 +17,9 @@ nav {
     background-color: yellow;
     padding: 1em;
     grid-area: nav;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 
 }
 
@@ -42,3 +45,14 @@ nav ul li a {
     text-decoration: none;
 }
 
+main p {
+    padding-left: 2em;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+footer p {
+    text-align: right;
+    padding-right: 2em;
+}
