@@ -15,8 +15,8 @@ body {
     height: 0.8em;
     width: 1.25em;
     display: block;
-    border-top: 0.2em solid white;
-    border-bottom: 0.2em solid white;
+    border-top: 0.2em solid rgb(127, 86, 189);
+    border-bottom: 0.2em solid rgb(127, 86, 189);
 }
 
 .showNav::before {
@@ -24,7 +24,7 @@ body {
     position: absolute;
     width: 1.25em;
     margin-top: 0.3em;
-    border-top: 0.2em solid #fff;
+    border-top: 0.2em solid rgb(127, 86, 189);
 }
 
 #clicked .on {
@@ -54,4 +54,6 @@ nav {
     left: 50%;
     width: 50%;
     height: 100vh;
+    background-color: rgb(127, 86, 189);
+    outline: 0.5em solid black;
 }
