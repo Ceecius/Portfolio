@@ -3,7 +3,7 @@
 
 /* Formatting for semantic tags */
 header {
-    color: rgb(127, 86, 189);
+    color: rgb(3, 55, 140);
     padding: 1em;
     padding-top: 0.5em;
     padding-left: 2em;
@@ -13,7 +13,7 @@ header {
     font-style: normal;
 }
 
-nav {
+.navbar {
     padding: 1em;
     grid-area: nav;
     font-family: "Poppins", sans-serif;
@@ -37,14 +37,14 @@ aside {
 }
 
 footer {
-    background-color: rgb(212, 145, 181);
+    background-color: rgb(156, 203, 214);
     color: white;
     grid-area: footer;
 }
 
 /* nav button styling */
 nav ul li a {
-    color: rgb(127, 86, 189);
+    color: black;
     text-decoration: none;
 }
 
@@ -53,7 +53,7 @@ main p {
     font-size: 2em;
     text-align: left;
     height: 0.5em;
-    display: contents;
+
 }
 
 
@@ -72,12 +72,15 @@ body {
     font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
-  color: rgb(127, 86, 189);
+  color: rgb(3, 55, 140);
+    padding: 1em;
 }
 
 main p:first-child {
     color: rgb(0, 0, 0);
 }
+
+/* contact button styling/*
 
 /* text boxes for project page */
 
@@ -88,6 +91,7 @@ main p:first-child {
     gap: 0.9em;
     margin-left: 1em;
     margin-bottom: 0.1%;
+    
 
 }
 
@@ -96,20 +100,57 @@ main p:first-child {
     margin: 0.5em;
     border-radius: 0.5em;
     font-size: 10px;
+    color: rgb(251, 250, 253);
+    
 }
 
 #box1 {
-    background-color: red;
+    background-color: rgb(156, 203, 214);
 }
 
 #box2 {
-    background-color: rgb(6, 6, 148);
+    background-color: rgb(10, 201, 248);
 }
 
 #box3 {
-    background-color: rgb(0, 255, 17);
+    background-color: rgb(10, 201, 248);
 }
 
 #box4 {
-    background-color: rgb(255, 153, 0);
+    background-color: rgb(156, 203, 214);
+}
+
+/* project header */
+.project-heading {
+    text-align: center;
+    font-size: 0.5em;
+    padding-bottom: 2em;
+}
+
+.project-heading p {
+    text-align: center;
+    font-size: 2em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.box p {
+    display: contents;
+}
+
+/* navigation bar animations */
+.navbar a::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: rgb(3, 55, 140);
+    display: block;
+    opacity: 0;
+    transition: all 0.2s;
+    pointer-events: none;
+}
+
+.navbar a:hover::after {
+    opacity: 1;
 }
