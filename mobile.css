@@ -163,3 +163,32 @@ form textarea {
     padding: 0.3rem;
     
 }
+
+/* report format */
+
+.report {
+    width: 18rem;
+    height: 69rem;
+    padding-bottom: 23.5rem;
+    text-align: left;
+    margin: auto;
+    outline: solid rgb(3, 55, 140) 0.2rem;
+    border-radius: 0.3rem;
+    padding-right: 1rem;
+}
+
+.report p {
+    font-size: 0.9em;
+    line-height: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.report h2 {
+    text-align: center;
+    padding-top: 0.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}

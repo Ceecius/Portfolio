@@ -101,4 +101,23 @@ body {
     color: rgb(3, 55, 140);
 }
 
+.report {
+    width: 30rem;
+    height: 44rem;
+    padding-bottom: 2em;
+    text-align: left;
+    margin: auto;
+    outline: solid rgb(3, 55, 140) 0.2rem;
+    border-radius: 0.3rem;
+    padding-right: 1rem;
+}
 
+.report p {
+    font-size: 0.9em;
+    line-height: 1.5rem;
+}
+
+.report h2 {
+    text-align: center;
+    padding-top: 0.5rem;
+}
