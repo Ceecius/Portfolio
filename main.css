@@ -207,3 +207,11 @@ body {
 .navbar a:hover::after {
     opacity: 1;
 }
+
+.fa-brands.fa-github.fa-2x {
+    padding: 0;
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+    color: rgb(3, 55, 140);
+}
