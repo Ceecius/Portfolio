@@ -177,7 +177,7 @@ form textarea {
 
 .report {
     width: 30rem;
-    height: 52rem;
+    height: 57rem;
     padding-bottom: 2em;
     text-align: left;
     margin: auto;
@@ -200,4 +200,18 @@ form textarea {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
+}
+
+/* image sizing */
+
+.img-one {
+    position: relative;
+    left: 25rem;
+    bottom: 5rem;
+}
+
+.img-two {
+    position: relative;
+    left: 25rem;
+    bottom: 4.5rem;
 }
