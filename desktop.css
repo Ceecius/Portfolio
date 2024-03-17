@@ -215,3 +215,9 @@ form textarea {
     left: 25rem;
     bottom: 4.5rem;
 }
+
+/* video format */
+.video {
+    position: relative;
+    padding-left: 30rem;
+}

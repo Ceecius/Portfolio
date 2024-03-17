@@ -198,11 +198,16 @@ form textarea {
 .img-one {
     position: relative;
     left: 1rem;
-    bottom: 5rem;
+    bottom: 3rem;
 }
 
 .img-two {
     position: relative;
     left: 1rem;
-    bottom: 4.5rem;
+    bottom: 2rem;
+}
+
+/* video format */
+.video {
+    width: 20%;
 }
