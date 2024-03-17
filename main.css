@@ -215,3 +215,45 @@ body {
     top: 2rem;
     color: rgb(3, 55, 140);
 }
+
+/* Form formatting */
+
+.message-form {
+    width: 22.5rem;
+    height: 35rem;
+    margin: auto;
+    border: solid rgb(3, 55, 140) 0.3rem;
+
+    border-radius: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.message-form h2 {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+form {
+    width: 19rem;
+    margin-left: 1.2rem;
+}
+
+form label {
+    display: flex;
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+form input {
+    width: 100%;
+    padding: 0.4rem;
+}
+
+form textarea {
+    width: 100%;
+    padding: 0.4rem;
+    
+}
